@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Place</title>
+    <link rel="shortcut icon" href="img/header/logo-head.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <header>
+        <div class="container container-header">
+            <div class="logo-box">
+                <a class="logo" href=""></a>
+                <div class="menu-btn">
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                        <ul id="menu">
+                          <li><a href="#main">Главная</a></li>
+                          <li><a href="#about-us">Наши работы</a></li>
+                          <li><a href="#how-we-work">Как мы работаем</a></li>
+                          <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="container container-nav">
+                <div class="nav">
+                    <ul class="d-flex justify-content-space-between">
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#about-us">Наши работы</a></li>
+                        <li><a href="#how-we-work">Как мы работаем</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="btn-header">
+                    <a href="#contact">Обратная связь</a>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section class="first-screen" id="main">
+        <div class="first-section">
+            <div class="container container-first-screen">
+                <ul class="d-flex list-first-screen">
+                    <li><a href="#">КАМИНЫ</a></li>
+                    <li><a href="#">ПЕЧИ</a></li>
+                    <li><a href="#">МАНГАЛЫ</a></li>
+                    <li><a href="#">БАРБЕКЮ</a></li>
+                </ul>
+                <h2>Изготовление каминов, печей и мангалов</h2>
+                <a href="#contact" class="btn-firsts-scren">Заказать сейчас</a>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </section>
+    <section class="second-screen" id="about-us">
+        <div class="container about-us">
+            <h2 class="template-title">О нас</h2>
+            <div class="parent container ">
+                <div class="first-img-about-us"> 
+                    <img class="fire-plase-white" src="./img/about-us/second-screen-fire-plase-white.webp" alt="second-screen-fire-plase-white">
+                </div>
+                <div class="description"> 
+                    <div class="text-box_description">
+                        <p>
+                            Наша компания Warm Place занимается изготовлением каминов, печей, мангалов и грилей для барбекю с прямой доставкой и установкой на дом.
+                        </p>
+                        <p>
+                            Наши изделия отличаются от конкурентов высоким качеством материала, из которого мы изготавливаем наше оборудование
+                            и также демократичными ценами, которые вполне устраивают наших довольных покупателем, потому залог успеха 
+                            Warm Place - высокое качество за небольшую цену.
+                        </p>
+                        <p >
+                            Также мы предоставляем услуги доставки нашего оборудования в регионы, наши курьеры гарантируют целостность и сохранность оборудования к моменту 
+                            его доставки и дальнейшей установки.
+                            <span id="dots"></span>
+                        </p>
+                        
+                        <p>
+                            <span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eius consectetur officiis modi, ipsum neque ea atque ipsa vero dolore maxime iusto velit quaerat accusamus sapiente nemo tempora? Ducimus, laudantium.</span>
+                        </p>
+                    </div>
+                    <div class="read-next">
+                        <button onclick="read_more()" id="more-btn">Читать далее</button>
+                    </div>
+                </div>
+                <div class="second-img-about-us"> 
+                    <img class="fire-plase-dark" src="./img/about-us/second-screen-fire-plase-dark.webp" alt="second-screen-fire-plase-dark.pne">
+                </div>  
+            </div>
+        </div>
+        <div class="figure-bg-second-screen">
+        </div>
+    </section>
+    <section class="third-screen">
+        <h2 class="template-title">Наши <span class="orange">работы</span></h2>
+        <div class="container">
+            <div class="center-mode">
+                <div class="slider-container">
+                    <div class="our-works-slider">
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Modern royal</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372;</p>
+                            </div>
+                            <img src="./img/third-screen/slider/first-slider.webp" class="img-fluid" alt="our-works-1">
+                        </div>
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Old royal</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372;</p>
+                            </div>
+                            <img src="./img/third-screen/slider/second-slider.webp" class="img-fluid" alt="our-works-2">
+                        </div>
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Square</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372;</p>
+                            </div>
+                            <img src="./img/third-screen/slider/third-slider.webp" class="img-fluid" alt="our-works-3">
+                        </div>
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Modern royal</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372;</p>
+                            </div>
+                            <img src="./img/third-screen/slider/first-slider.webp" class="img-fluid" alt="our-works-1">
+                        </div>
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Old royal</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372</p>
+                            </div>
+                            <img src="./img/third-screen/slider/second-slider.webp" class="img-fluid" alt="our-works-2">
+                        </div>
+                        <div class="our-works-slider__item">
+                            <div class="text-slider">
+                                <p class="name-place">Камин <span class="orange">Square</span></p>
+                            <p class="price">Стоимость: 12 500. 00 &#8372</p>
+                            </div>
+                            <img src="./img/third-screen/slider/third-slider.webp" class="img-fluid" alt="our-works-3">
+                        </div>
+                    </div>
+                    <div class="our-works-slider__tools">
+                        <div class="our-works-slider__counter">1 / 6</div>
+                        <div class="our-works-slider__navigation"></div>
+                    </div>
+                    <div class="figure-bg-fourth-screen-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourth-screen" id="how-we-work">
+        <h2 class="template-title">Как <span class="orange">мы</span> работаем</h2>
+        <div class="container how-we-work">
+            <div class="make-order">
+                <div class="img-box img-box_make-order">
+                    <img src="./img/fourth-screen/make-order.webp" alt="make-order">
+                </div>
+                <h3 class="box-title">1. Оформление заказа</h3>
+                <p>Вы оформляете ваш заказ, а позже мы перезваниваем вам, и мы уже согласовываем все детали.</p>
+            </div>
+            <div class="first-arrow"></div>
+            <div class="delivery">
+                <div class="img-box img-box_delivery">
+                    <img src="./img/fourth-screen/delivery.webp" alt="delivery">
+                </div>
+                <h3>2. Доставка вашего товара</h3>
+                <p>Мы доставим ваш заказ в кратчайшие сроки, а сам товар вы уже сможете забрать сами, либо курьер доставит вам на дом.</p>
+            </div>
+            <div class="second-arrow"></div>
+            <div class="installation">
+                <div class="img-box img-box_installation">
+                    <img src="./img/fourth-screen/installation.webp" alt="installation">
+                </div>
+                <h3>3. Получение товара и установка</h3>
+                <p>Вы забираете свой товар на почте, либо наши работники вам его доставят и установят.</p>
+            </div>
+        </div>
+        <div class="figure-bg-fourth-screen"></div>
+    </section>
+    <section class="fifth-screen" id="comments">
+        <h2 class="template-title"><span class="orange">Отзывы</span> клиентов</h2>
+        <div class="container comments">
+            <div class="first-comment">
+                <div class="comments-container">
+                    <div class="avatar">
+                        <img src="./img/reviews/avatar.webp" alt="avatar">
+                    </div>
+                    <div class="user-info">
+                        <p class="position">Предприниматель</p>
+                        <p class="name">Валерий Петренко</p>
+                        <p class="text-com">
+                            Благодарю компанию Warm place за качественный камин, который мы
+                            брали у вас с женой, ваши сотрудники были очень вежливы и приятны,
+                            установили все в кратчайшие сроки. Всем рекомендую!
+                        </p>
+                        <div class="icon-box">
+                            <div class="facebook"></div>
+                            <div class="instagramm"></div>
+                            <div class="telegram"></div>
+                        </div>
+                    </div>
+                    <div class="icon-box-mobile">
+                        <div class="facebook"></div>
+                        <div class="instagramm"></div>
+                        <div class="telegram"></div>
+                    </div>
+                    <div class="parentheses"></div>
+                </div>
+            </div>
+            <div class="second-comment">
+                <div class="comments-container">
+                    <div class="avatar">
+                        <img src="./img/reviews/avatar2.webp" alt="avatar">
+                    </div>
+                    <div class="user-info">
+                        <p class="position">Дизайнер интерьера</p>
+                        <p class="name">Анастасия Кравец</p>
+                        <p class="text-com">
+                            Недавно приобрела у вас гриль и мангал себе на дачу, и могу сказать что соотношение цены и качества просто отличное - 
+                            мало того что товар сделан на должном уровне, так еще и цены вполне 
+                            демократичные.
+                        </p>
+                        <div class="icon-box">
+                            <div class="telegram"></div>
+                            <div class="facebook"></div>
+                            <div class="instagramm"></div>
+                        </div>
+                    </div>
+                    <div class="icon-box-mobile">
+                        <div class="telegram"></div>
+                        <div class="facebook"></div>
+                        <div class="instagramm"></div>
+                    </div>
+                    <div class="parentheses"></div>
+                </div>
+            </div>
+            <div class="third-comment">
+                <div class="comments-container">
+                    <div class="avatar">
+                        <img src="./img/reviews/avatar3.webp" alt="avatar">
+                    </div>
+                    <div class="user-info">
+                        <p class="position">Бухгалтер</p>
+                        <p class="name">Михаил Дмитриенко</p>
+                        <p class="text-com">
+                            Честно говоря, я был приятно удивлен таким быстрым срокам доставки, 
+                            качеством товара так же был доволен, заказывал у вас мангал для 
+                            барбекю, всем советую и рекомендую заказывать у Warm place.
+                        </p>
+                        <div class="icon-box">
+                            <div class="facebook"></div>
+                            <div class="telegram"></div>
+                            <div class="instagramm"></div>
+                        </div>
+                    </div>
+                    <div class="icon-box-mobile">
+                        <div class="facebook"></div>
+                        <div class="telegram"></div>
+                        <div class="instagramm"></div>
+                    </div>
+                    <div class="parentheses"></div>
+                </div>
+            </div>
+            <div class="fourth-comment">
+                <div class="comments-container">
+                    <div class="avatar">
+                        <img src="./img/reviews/avatar4.webp" alt="avatar">
+                    </div>
+                    <div class="user-info">
+                        <p class="position">Владелец сети ресторанов</p>
+                        <p class="name">Владимир Ткачев</p>
+                        <p class="text-com">
+                            Неделю назад стокнулся с проблемой приобретения пары печей для одного из наших заведений. 
+                            Заказал у вас и всем доволен, предполагаю вскоре замену наших старых 
+                            печей на оборудование от Warm Place.
+                        </p>
+                        <div class="icon-box">
+                            <div class="instagramm"></div>
+                            <div class="telegram"></div>
+                            <div class="facebook"></div>
+                        </div>
+                    </div>
+                    <div class="icon-box-mobile">
+                        <div class="instagramm"></div>
+                        <div class="telegram"></div>
+                        <div class="facebook"></div>
+                    </div>
+                    <div class="parentheses"></div>
+                </div>
+            </div>
+          </div>
+    </section>
+    <section class="sixth-screen" id="contact">
+        <h2 class="template-title"><span class="orange">Свяжитесь</span> с нами</h2>
+        <div class="container contact-us-container">
+            <div class="user-data">
+                <input class="user-name" type="text" placeholder="ФИО">
+                <input class="user-contacts" type="text" placeholder="E-mail или номер телефона">
+            </div>
+            <div class="user-message">
+                <input class="message" type="text" placeholder="Текст сообщения...">
+            </div>
+            <a href="#" class="btn-firsts-scren">Заказать сейчас</a>
+        </div>
+        <div class="sixth-screen-bg-circle"></div>
+    </section>
+    <footer  id="contacts">
+        <section class="first-section_footer">
+            <div class="container">
+                <div class="contact-info">
+                    <div class="content">
+                        <p class="title-footer">Контактные данные</p>
+                        <div class="subtitle mb">
+                            <p class="subtitle-info">Адрес офиса: г. Киев,</p>
+                            <p class="subtitle-info">ул. Тургеневская, 59б</p>
+                        </div>
+                        <div class="subtitle">
+                            <p class="subtitle-info mw-subtitle-info">Адрес офиса: г. Харьков,</p>
+                            <p class="subtitle-info">ул. Котельная, 21A</p>
+                        </div>
+                    </div>
+                    <div class="content hotline">
+                        <p class="title-footer">Горячая линия</p>
+                        <div class="subtitle mb">
+                            <p class="subtitle-info">Тел.: +38 0XX XXX XX XX</p>
+                            <p class="subtitle-info">Факс: +38 0XX XXX XX XX</p>
+                        </div>
+                        <div class="subtitle">
+                            <p class="subtitle-info">Тел.: +38 0XX XXX XX XX</p>
+                            <p class="subtitle-info">Факс: +38 0XX XXX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="content social-media">
+                        <p class="title-footer">Мы в соцсетях</p>
+                        <div class="social-networks">
+                            <a href="https://www.instagram.com/">
+                                <div class="ico"></div>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/campaign/landing.php?&campaign_id=1600506847&extra_1=s%7Cc%7C515922865595%7Ce%7Cfacebook%7C&placement=&creative=515922865595&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1030388%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjw4uaUBhC8ARIsANUuDjWqqukUjALcYKJwqLV7kPlUKVv-zM9-OETgb7KeE2YMDlW0qTztbf4aAsFLEALw_wcB">
+                                <div class="ico"></div>
+                            </a>
+                            <a href="https://vk.com/">
+                                <div class="ico"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary map" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Показать на карте
+                </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Наши Офисы</h5>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695.491424256824!2d30.488679976125898!3d50.4528975629465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6246baaaab%3A0x3387db4c6ac4a7e!2z0YPQuy4g0KLRg9GA0LPQtdC90LXQstGB0LrQsNGPLCA1OdCxLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1654685326296!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <div class="line-footer"></div>
+        <div class="container second-section_footer">
+            <p>© Warm place | Все права защищены. | 2021</p>
+            <ul class="d-flex justify-content-space-between">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#main">О Нас</a></li>
+                <li><a href="#about-us">Наши работы</a></li>
+                <li><a href="#how-we-work">Как мы работаем</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+    <a id="button">
+        <img src="./img/btn-up/up.svg" alt="ip-icon">
+        <p>Наверх</p>
+    </a>
+    <script src="js/jQuery3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
