@@ -49,7 +49,7 @@ header {
     position: sticky;
     top: 0;
     scroll-behavior: smooth;
-    z-index: 1;
+    z-index: 7;
     border-bottom: 2px solid var(--grey);
 }
 
